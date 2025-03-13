@@ -47,7 +47,7 @@ export function Hero() {
           ) : profile ? (
             <>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Hi, I'm <span className="text-primary">{profile.name.split(" ")[0]}</span>
+                Hi, I&apos;m <span className="text-primary">{profile.name.split(" ")[0]}</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">{profile.title}</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
